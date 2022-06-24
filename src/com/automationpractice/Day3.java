@@ -15,6 +15,7 @@ public class Day3 {
         driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
         driver.get(url);
+        //my tests
     }
 	
 	public void classNameMethod()
